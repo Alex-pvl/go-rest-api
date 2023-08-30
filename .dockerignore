@@ -1,0 +1,14 @@
+# Ignore build artifacts
+*.o
+*.a
+*.so
+*.exe
+*.test
+*.prof
+
+# Ignore IDE-specific files
+.idea/
+.vscode/
+*.iml
+
+.git

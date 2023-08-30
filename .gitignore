@@ -1,0 +1,18 @@
+# Generated files
+*.o
+*.a
+*.so
+*.exe
+*.test
+*.prof
+
+# Logs
+*.log
+
+# Go binary
+go.sum
+
+# IDE specific files
+.idea/
+.vscode/
+*.iml
