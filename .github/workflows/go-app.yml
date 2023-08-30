@@ -25,5 +25,8 @@ jobs:
           username: ${{ secrets.DOCKER_USERNAME }}
           password: ${{ secrets.DOCKER_PASSWORD }}
 
+      - name: Tag Docker image
+        run: docker tag go-app ${{ secrets.DOCKER_USERNAME }}/go-app:latest
+
       - name: Push Docker image
         run: docker push ${{ secrets.DOCKER_USERNAME }}/go-app:latest
