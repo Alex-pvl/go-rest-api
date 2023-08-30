@@ -9,9 +9,6 @@
 # Logs
 *.log
 
-# Go binary
-go.sum
-
 # IDE specific files
 .idea/
 .vscode/
